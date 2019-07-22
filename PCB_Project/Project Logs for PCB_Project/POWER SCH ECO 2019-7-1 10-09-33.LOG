@@ -1,0 +1,14 @@
+Change Component Designator: Old Designator=D1 New Designator=D2
+Change Component Designator: Old Designator=D2 New Designator=D3
+Change Component Designator: Old Designator=D? New Designator=D1
+Change Component Designator: Old Designator=D? New Designator=D4
+Change Component Designator: Old Designator=ESD? New Designator=ESD1
+Change Component Designator: Old Designator=ESD? New Designator=ESD2
+Change Component Designator: Old Designator=FUSE_? New Designator=FUSE_1
+Change Component Designator: Old Designator=LED? New Designator=LED1
+Change Component Designator: Old Designator=LED? New Designator=LED2
+Change Component Designator: Old Designator=PWR? New Designator=PWR1
+Change Component Designator: Old Designator=R5 New Designator=R7
+Change Component Designator: Old Designator=R? New Designator=R5
+Change Component Designator: Old Designator=R? New Designator=R6
+Change Component Designator: Old Designator=U? New Designator=U3

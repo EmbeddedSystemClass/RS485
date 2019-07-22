@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=FW_V3.3 Pin=JP2-1
+Removed Pin From Net: NetName=FW_GND Pin=JP2-2
+Removed Pin From Net: NetName=UART2_TXD Pin=JP2-3
+Removed Pin From Net: NetName=UART2_RXD Pin=JP2-4
+Removed Pin From Net: NetName=FW_V3.3 Pin=JP3-1
+Removed Pin From Net: NetName=FW_GND Pin=JP3-2
+Removed Pin From Net: NetName=UART1_RXD Pin=JP3-3
+Removed Pin From Net: NetName=UART1_TXD Pin=JP3-4
+Change Component Footprint: Designator=JP2 Old Footprint=XH2.54-WS-4P New Footprint=XH2.54-WS-6P
+Change Component Footprint: Designator=JP3 Old Footprint=XH2.54-WS-4P New Footprint=XH2.54-WS-6P
+Change Component Comment : Designator=JP2 Old Comment=HDR-1X4 New Comment=HDR-1X6
+Change Component Comment : Designator=JP3 Old Comment=HDR-1X4 New Comment=HDR-1X6
+Added Pin To Net: NetName=FW_V24 Pin=JP2-1
+Added Pin To Net: NetName=FW_V24 Pin=JP2-2
+Added Pin To Net: NetName=FW_GND Pin=JP2-3
+Added Pin To Net: NetName=FW_GND Pin=JP2-4
+Added Pin To Net: NetName=UART2_TXD Pin=JP2-5
+Added Pin To Net: NetName=UART2_RXD Pin=JP2-6
+Added Pin To Net: NetName=FW_V24 Pin=JP3-1
+Added Pin To Net: NetName=FW_V24 Pin=JP3-2
+Added Pin To Net: NetName=FW_GND Pin=JP3-3
+Added Pin To Net: NetName=FW_GND Pin=JP3-4
+Added Pin To Net: NetName=UART1_RXD Pin=JP3-5
+Added Pin To Net: NetName=UART1_TXD Pin=JP3-6
+Added Room: Name=MCU

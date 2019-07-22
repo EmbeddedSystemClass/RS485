@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=FW_V3.3 Pin=C5-1
+Removed Pin From Net: NetName=FW_GND Pin=C5-2
+Added Pin To Net: NetName=VDDA Pin=C5-1
+Added Pin To Net: NetName=GNDA Pin=C5-2

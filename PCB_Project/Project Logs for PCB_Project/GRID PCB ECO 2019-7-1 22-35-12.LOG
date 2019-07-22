@@ -1,0 +1,4 @@
+Added Component: Designator=CAP(8X12_CAP)
+Added Pin To Net: NetName=FW_V24 Pin=CAP-1
+Added Pin To Net: NetName=FW_GND Pin=CAP-2
+Added Member To Class: ClassName=Power Member=Component CAP

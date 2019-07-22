@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=FW_V24 Pin=JP3-1
+Removed Pin From Net: NetName=FW_V24 Pin=JP3-2
+Added Pin To Net: NetName=NetFUSE_1_2 Pin=JP3-1
+Added Pin To Net: NetName=NetFUSE_1_2 Pin=JP3-2
+Change Net Name : Old Net Name=NetFUSE_1_2 New Net Name=VIN

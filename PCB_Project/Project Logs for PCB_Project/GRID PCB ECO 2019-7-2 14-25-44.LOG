@@ -1,0 +1,61 @@
+Change Component Designator: OldDesignator=P1 NewDesignator=P2
+Change Component Designator: OldDesignator=P2 NewDesignator=P3
+Change Component Designator: OldDesignator=P3 NewDesignator=P5
+Change Component Designator: OldDesignator=P4 NewDesignator=P6
+Added Component: Designator=P1(HDR2X4_CEN)
+Added Component: Designator=P4(HDR2X4_CEN)
+Added Component: Designator=Rp1(0603_Rx4)
+Added Component: Designator=Rp2(0603_Rx4)
+Added Pin To Net: NetName=FW_GND Pin=P1-5
+Added Pin To Net: NetName=FW_GND Pin=P1-6
+Added Pin To Net: NetName=FW_GND Pin=P1-7
+Added Pin To Net: NetName=FW_GND Pin=P1-8
+Added Pin To Net: NetName=FW_GND Pin=P4-5
+Added Pin To Net: NetName=FW_GND Pin=P4-6
+Added Pin To Net: NetName=FW_GND Pin=P4-7
+Added Pin To Net: NetName=FW_GND Pin=P4-8
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp1-1
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp1-2
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp1-3
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp1-4
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp2-1
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp2-2
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp2-3
+Added Pin To Net: NetName=FW_V3.3 Pin=Rp2-4
+Added Pin To Net: NetName=X1 Pin=P1-1
+Added Pin To Net: NetName=X1 Pin=Rp1-8
+Added Pin To Net: NetName=X1 Pin=U1-43
+Added Net: Name=X1
+Added Pin To Net: NetName=X2 Pin=P1-2
+Added Pin To Net: NetName=X2 Pin=Rp1-7
+Added Pin To Net: NetName=X2 Pin=U1-42
+Added Net: Name=X2
+Added Pin To Net: NetName=X3 Pin=P1-3
+Added Pin To Net: NetName=X3 Pin=Rp1-6
+Added Pin To Net: NetName=X3 Pin=U1-41
+Added Net: Name=X3
+Added Pin To Net: NetName=X4 Pin=P1-4
+Added Pin To Net: NetName=X4 Pin=Rp1-5
+Added Pin To Net: NetName=X4 Pin=U1-40
+Added Net: Name=X4
+Added Pin To Net: NetName=Y1 Pin=P4-1
+Added Pin To Net: NetName=Y1 Pin=Rp2-8
+Added Pin To Net: NetName=Y1 Pin=U1-33
+Added Net: Name=Y1
+Added Pin To Net: NetName=Y2 Pin=P4-2
+Added Pin To Net: NetName=Y2 Pin=Rp2-7
+Added Pin To Net: NetName=Y2 Pin=U1-32
+Added Net: Name=Y2
+Added Pin To Net: NetName=Y3 Pin=P4-3
+Added Pin To Net: NetName=Y3 Pin=Rp2-6
+Added Pin To Net: NetName=Y3 Pin=U1-31
+Added Net: Name=Y3
+Added Pin To Net: NetName=Y4 Pin=P4-4
+Added Pin To Net: NetName=Y4 Pin=Rp2-5
+Added Pin To Net: NetName=Y4 Pin=U1-30
+Added Net: Name=Y4
+Added Member To Class: ClassName=Lock3 Member=Component CON1_Lock3 (CON1) 4P_PH2.54_W
+Added Member To Class: ClassName=MCU Member=Component P5 TP
+Added Member To Class: ClassName=MCU Member=Component P6 TP
+Added Member To Class: ClassName=MCU Member=Component Rp1 10K¦¸ (103) ¡À5%
+Added Member To Class: ClassName=MCU Member=Component Rp2 10K¦¸ (103) ¡À5%

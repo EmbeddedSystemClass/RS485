@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=FW_V24 Pin=FUSE_1-2
+Removed Pin From Net: NetName=FW_V24 Pin=JP2-1
+Removed Pin From Net: NetName=FW_V24 Pin=JP2-2
+Removed Member From Class: ClassName=Power Member=D1
+Removed Member From Class: ClassName=Power Member=FUSE_1
+Added Pin To Net: NetName=FW_V24 Pin=C8-2
+Added Pin To Net: NetName=FW_V24 Pin=D1-2
+Added Pin To Net: NetName=FW_V24 Pin=ESD1-2
+Added Pin To Net: NetName=FW_V24 Pin=LED2-A
+Added Pin To Net: NetName=FW_V24 Pin=R3-2
+Added Pin To Net: NetName=FW_V24 Pin=U2-5
+Added Pin To Net: NetName=NetFUSE_1_2 Pin=FUSE_1-2
+Added Pin To Net: NetName=NetFUSE_1_2 Pin=JP2-1
+Added Pin To Net: NetName=NetFUSE_1_2 Pin=JP2-2
+Added Net: Name=NetFUSE_1_2
+Added Member To Class: ClassName=MCU Member=Component D1 SS54
+Added Member To Class: ClassName=MCU Member=Component FUSE_1 SMD1812P260_FUSE
+Added Room: Name=MCU
+Added Room: Name=Power

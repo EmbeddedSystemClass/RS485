@@ -1,0 +1,12 @@
+Added Component: Designator=P1(TP)
+Added Component: Designator=P2(TP)
+Added Component: Designator=P3(TP)
+Added Component: Designator=P4(TP)
+Added Pin To Net: NetName=SWD_DIO Pin=P1-1
+Added Pin To Net: NetName=SWD_CLK Pin=P2-1
+Added Pin To Net: NetName=FW_V3.3 Pin=P3-1
+Added Pin To Net: NetName=FW_GND Pin=P4-1
+Added Member To Class: ClassName=MCU Member=Component P1 TP
+Added Member To Class: ClassName=MCU Member=Component P2 TP
+Added Member To Class: ClassName=MCU Member=Component P3 TP
+Added Member To Class: ClassName=MCU Member=Component P4 TP

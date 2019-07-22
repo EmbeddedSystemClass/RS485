@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ADMIN ADMIN, ADMIN, LIC=Y2BKP-M63XL-RCFJZ-JHPD3-73GTV-KEM11
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+D:\Grid\MDK-ARM\Grid.uvprojx
+Project File Date:  07/21/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Grid'
+compiling main.c...
+../Inc/usart.h(44): warning:  #1295-D: Deprecated declaration HAL_UART_doRS485 - give arg types
+  void HAL_UART_doRS485();
+../Src/main.c: 1 warning, 0 errors
+compiling freertos.c...
+../Inc/usart.h(44): warning:  #1295-D: Deprecated declaration HAL_UART_doRS485 - give arg types
+  void HAL_UART_doRS485();
+../Src/freertos.c: 1 warning, 0 errors
+compiling mbfuncinput.c...
+compiling mbfunccoils.c...
+compiling mbutils.c...
+compiling mbfuncother.c...
+compiling mbcrc.c...
+compiling port.c...
+../Inc/usart.h(44): warning:  #1295-D: Deprecated declaration HAL_UART_doRS485 - give arg types
+  void HAL_UART_doRS485();
+port.c(50): warning:  #186-D: pointless comparison of unsigned integer with zero
+      if( ( usAddress >= 
+EG_INPUT_START )
+port.c(78): warning:  #186-D: pointless comparison of unsigned integer with zero
+      if( ( usAddress >= 
+EG_HOLDING_START ) &&
+port.c: 3 warnings, 0 errors
+compiling portevent.c...
+compiling mbascii.c...
+compiling mbfuncholding.c...
+compiling mbfuncdisc.c...
+compiling porttimer.c...
+compiling portserial.c...
+../Inc/usart.h(44): warning:  #1295-D: Deprecated declaration HAL_UART_doRS485 - give arg types
+  void HAL_UART_doRS485();
+..\FreeModbus\port\portserial.c: 1 warning, 0 errors
+compiling mbrtu.c...
+..\FreeModbus\modbus\rtu\mbrtu.c(152): warning:  #550-D: variable "xFrameReceived"  was set but never used
+      BOOL            xFrameReceived = FALSE;
+..\FreeModbus\modbus\rtu\mbrtu.c: 1 warning, 0 errors
+compiling mbtcp.c...
+compiling mb.c...
+linking...
+Program Size: Code=11184 RO-data=780 RW-data=312 ZI-data=4976  
+FromELF: creating hex file...
+"Grid\Grid.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.0.0.pack
+                Keil.STM32F0xx_DFP.2.0.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Grid
+  D:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

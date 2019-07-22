@@ -1,0 +1,12 @@
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+grid\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+grid\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+grid\list.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+grid\list.o: ../Inc/FreeRTOSConfig.h
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+grid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

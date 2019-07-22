@@ -1,0 +1,120 @@
+Change Component Designator: OldDesignator=C2 NewDesignator=C3
+Change Component Designator: OldDesignator=C3 NewDesignator=C4
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Change Component Designator: OldDesignator=C5 NewDesignator=C6
+Change Component Designator: OldDesignator=C6_Lock1 NewDesignator=C7_Lock1
+Change Component Designator: OldDesignator=C6_Lock2 NewDesignator=C7_Lock2
+Change Component Designator: OldDesignator=C6_Lock3 NewDesignator=C7_Lock3
+Change Component Designator: OldDesignator=C6_Lock4 NewDesignator=C7_Lock4
+Change Component Designator: OldDesignator=C6_Lock5 NewDesignator=C7_Lock5
+Change Component Designator: OldDesignator=C7_Lock1 NewDesignator=C8_Lock1
+Change Component Designator: OldDesignator=C7_Lock2 NewDesignator=C8_Lock2
+Change Component Designator: OldDesignator=C7_Lock3 NewDesignator=C8_Lock3
+Change Component Designator: OldDesignator=C7_Lock4 NewDesignator=C8_Lock4
+Change Component Designator: OldDesignator=C7_Lock5 NewDesignator=C8_Lock5
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C11
+Change Component Designator: OldDesignator=CAP NewDesignator=CAP1
+Change Component Designator: OldDesignator=R3_Lock1 NewDesignator=R8_Lock1
+Change Component Designator: OldDesignator=R3_Lock2 NewDesignator=R8_Lock2
+Change Component Designator: OldDesignator=R3_Lock3 NewDesignator=R8_Lock3
+Change Component Designator: OldDesignator=R3_Lock4 NewDesignator=R8_Lock4
+Change Component Designator: OldDesignator=R3_Lock5 NewDesignator=R8_Lock5
+Change Component Designator: OldDesignator=R4_Lock1 NewDesignator=R9_Lock1
+Change Component Designator: OldDesignator=R4_Lock2 NewDesignator=R9_Lock2
+Change Component Designator: OldDesignator=R4_Lock3 NewDesignator=R9_Lock3
+Change Component Designator: OldDesignator=R4_Lock4 NewDesignator=R9_Lock4
+Change Component Designator: OldDesignator=R4_Lock5 NewDesignator=R9_Lock5
+Change Component Designator: OldDesignator=R5_Lock1 NewDesignator=R10_Lock1
+Change Component Designator: OldDesignator=R5_Lock2 NewDesignator=R10_Lock2
+Change Component Designator: OldDesignator=R5_Lock3 NewDesignator=R10_Lock3
+Change Component Designator: OldDesignator=R5_Lock4 NewDesignator=R10_Lock4
+Change Component Designator: OldDesignator=R5_Lock5 NewDesignator=R10_Lock5
+Change Component Designator: OldDesignator=R6_Lock1 NewDesignator=R11_Lock1
+Change Component Designator: OldDesignator=R6_Lock2 NewDesignator=R11_Lock2
+Change Component Designator: OldDesignator=R6_Lock3 NewDesignator=R11_Lock3
+Change Component Designator: OldDesignator=R6_Lock4 NewDesignator=R11_Lock4
+Change Component Designator: OldDesignator=R6_Lock5 NewDesignator=R11_Lock5
+Change Component Designator: OldDesignator=R7_Lock1 NewDesignator=R12_Lock1
+Change Component Designator: OldDesignator=R7_Lock2 NewDesignator=R12_Lock2
+Change Component Designator: OldDesignator=R7_Lock3 NewDesignator=R12_Lock3
+Change Component Designator: OldDesignator=R7_Lock4 NewDesignator=R12_Lock4
+Change Component Designator: OldDesignator=R7_Lock5 NewDesignator=R12_Lock5
+Change Component Designator: OldDesignator=R8_Lock1 NewDesignator=R13_Lock1
+Change Component Designator: OldDesignator=R8_Lock2 NewDesignator=R13_Lock2
+Change Component Designator: OldDesignator=R8_Lock3 NewDesignator=R13_Lock3
+Change Component Designator: OldDesignator=R8_Lock4 NewDesignator=R13_Lock4
+Change Component Designator: OldDesignator=R8_Lock5 NewDesignator=R13_Lock5
+Change Component Designator: OldDesignator=R9 NewDesignator=R14
+Change Component Designator: OldDesignator=R10 NewDesignator=R15
+Change Component Designator: OldDesignator=R11 NewDesignator=R16
+Change Component Designator: OldDesignator=R12 NewDesignator=R17
+Change Component Designator: OldDesignator=R13 NewDesignator=R18
+Change Component Designator: OldDesignator=R14 NewDesignator=R19
+Change Component Designator: OldDesignator=R15 NewDesignator=R20
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Added Component: Designator=C2(0805_C)
+Added Component: Designator=R3(0805_R)
+Added Component: Designator=R4(0603_R)
+Added Component: Designator=R5(0603_R)
+Added Component: Designator=R6(0603_R)
+Added Component: Designator=R7(0805_R)
+Added Component: Designator=U2(SOIC-8_150mil)
+Added Pin To Net: NetName=FW_GND Pin=C2-1
+Added Pin To Net: NetName=FW_V3.3 Pin=C2-2
+Added Pin To Net: NetName=FW_GND Pin=R3-2
+Added Pin To Net: NetName=FW_V3.3 Pin=R7-1
+Added Pin To Net: NetName=FW_GND Pin=U2-5
+Added Pin To Net: NetName=FW_V3.3 Pin=U2-8
+Change Net Name : Old Net Name=NetC6_Lock1_1 New Net Name=NetC7_Lock1_1
+Change Net Name : Old Net Name=NetC6_Lock2_1 New Net Name=NetC7_Lock2_1
+Change Net Name : Old Net Name=NetC6_Lock3_1 New Net Name=NetC7_Lock3_1
+Change Net Name : Old Net Name=NetC6_Lock4_1 New Net Name=NetC7_Lock4_1
+Change Net Name : Old Net Name=NetC6_Lock5_1 New Net Name=NetC7_Lock5_1
+Change Net Name : Old Net Name=NetC7_Lock1_2 New Net Name=NetC8_Lock1_2
+Change Net Name : Old Net Name=NetC7_Lock2_2 New Net Name=NetC8_Lock2_2
+Change Net Name : Old Net Name=NetC7_Lock3_2 New Net Name=NetC8_Lock3_2
+Change Net Name : Old Net Name=NetC7_Lock4_2 New Net Name=NetC8_Lock4_2
+Change Net Name : Old Net Name=NetC7_Lock5_2 New Net Name=NetC8_Lock5_2
+Change Net Name : Old Net Name=NetC9_1 New Net Name=NetC10_1
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC10_2
+Change Net Name : Old Net Name=NetR9_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR10_1 New Net Name=NetR15_1
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR16_1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=U2-1
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=U2-2
+Added Pin To Net: NetName=NetR5_2 Pin=U2-3
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=U2-4
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=RS485_A Pin=JP2-5
+Added Pin To Net: NetName=RS485_A Pin=JP3-1
+Added Pin To Net: NetName=RS485_A Pin=R7-2
+Added Pin To Net: NetName=RS485_A Pin=U2-6
+Added Net: Name=RS485_A
+Added Pin To Net: NetName=RS485_B Pin=JP2-6
+Added Pin To Net: NetName=RS485_B Pin=JP3-2
+Added Pin To Net: NetName=RS485_B Pin=R3-1
+Added Pin To Net: NetName=RS485_B Pin=U2-7
+Added Net: Name=RS485_B
+Added Pin To Net: NetName=RS485_RW Pin=R5-1
+Added Pin To Net: NetName=RS485_RW Pin=U1-11
+Added Net: Name=RS485_RW
+Added Pin To Net: NetName=RS485_RXD Pin=R4-1
+Added Pin To Net: NetName=RS485_RXD Pin=U1-13
+Added Net: Name=RS485_RXD
+Added Pin To Net: NetName=RS485_TXD Pin=R6-1
+Added Pin To Net: NetName=RS485_TXD Pin=U1-12
+Added Net: Name=RS485_TXD
+Added Member To Class: ClassName=MCU Member=Component C6 100nF (104) 10% 50V
+Added Member To Class: ClassName=MCU Member=Component R3 10K次 (1002) ㊣1%
+Added Member To Class: ClassName=MCU Member=Component R4 33次 (33R0) ㊣1%
+Added Member To Class: ClassName=MCU Member=Component R5 33次 (33R0) ㊣1%
+Added Member To Class: ClassName=MCU Member=Component R6 33次 (33R0) ㊣1%
+Added Member To Class: ClassName=MCU Member=Component R7 10K次 (1002) ㊣1%
+Added Member To Class: ClassName=MCU Member=Component U2 SP3485EN-L/TR

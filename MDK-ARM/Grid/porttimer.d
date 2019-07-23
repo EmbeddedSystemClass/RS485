@@ -1,16 +1,5 @@
 grid\porttimer.o: ..\FreeModbus\port\porttimer.c
 grid\porttimer.o: ..\FreeModbus\port\port.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-grid\porttimer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-grid\porttimer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-grid\porttimer.o: ../Inc/FreeRTOSConfig.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
-grid\porttimer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 grid\porttimer.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
 grid\porttimer.o: ../Inc/stm32f0xx_hal_conf.h
 grid\porttimer.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h
@@ -18,6 +7,7 @@ grid\porttimer.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h
 grid\porttimer.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
 grid\porttimer.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h
 grid\porttimer.o: ../Drivers/CMSIS/Include/core_cm0.h
+grid\porttimer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 grid\porttimer.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 grid\porttimer.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 grid\porttimer.o: ../Drivers/CMSIS/Include/core_cmFunc.h

@@ -22,8 +22,6 @@
 #ifndef _PORT_H
 #define _PORT_H
 
-#include "FreeRTOS.h"
-#include "task.h"
 #include "stm32f0xx_hal.h"
 #include <assert.h>
 #include <inttypes.h>
@@ -32,8 +30,8 @@
 #define PR_BEGIN_EXTERN_C           extern "C" {
 #define	PR_END_EXTERN_C             }
 
-#define ENTER_CRITICAL_SECTION( )   taskENTER_CRITICAL()
-#define EXIT_CRITICAL_SECTION( )    taskEXIT_CRITICAL()
+#define ENTER_CRITICAL_SECTION( )   __set_PRIMASK(1)
+#define EXIT_CRITICAL_SECTION( )    __set_PRIMASK(0)
 
 typedef uint8_t BOOL;
 

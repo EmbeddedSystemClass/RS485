@@ -20,7 +20,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "cmsis_os.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -49,15 +48,14 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+	uint8_t Address = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 
-char rxb[10] = "\0";
+//char rxb[10] = "\0";
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -95,23 +93,21 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM3_Init();
   MX_USART2_UART_Init();
-  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
 
-  /* Call init function for freertos objects (in freertos.c) */
-  MX_FREERTOS_Init();
-
-  /* Start scheduler */
-  osKernelStart();
-  
-  /* We should never get here as control is now taken by the scheduler */
-
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	printf("USER CODE BEGIN WHILE\r\n");
-	eMBInit(MB_RTU, 0x01, 3, 9600, MB_PAR_NONE);
+
+	Address =  RS485_Get_Address();
+	HAL_Delay(1000);
+	HAL_GPIO_WritePin(LOCK_5_GPIO_Port, LOCK_5_Pin, GPIO_PIN_SET);
+	if(Address == 0)
+	{
+		while(1);
+	}
+	eMBInit(MB_RTU, Address, 3, 9600, MB_PAR_NONE);
 	eMBEnable();
   while (1)
   {
@@ -119,8 +115,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 		eMBPoll();
-//		printf("while (1), interruptxxx = %d, rxb = %s", interruptxxx, rxb);
-//		HAL_Delay(1000);
+		cmd_control();
+		cmd_FeedBack();
   }
   /* USER CODE END 3 */
 }
@@ -133,7 +129,6 @@ void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
-  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
 
   /** Initializes the CPU, AHB and APB busses clocks 
   */
@@ -157,12 +152,6 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USART1;
-  PeriphClkInit.Usart1ClockSelection = RCC_USART1CLKSOURCE_PCLK1;
-  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();
   }

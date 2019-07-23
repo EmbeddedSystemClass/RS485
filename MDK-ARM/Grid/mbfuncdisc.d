@@ -2,17 +2,6 @@ grid\mbfuncdisc.o: ..\FreeModbus\modbus\functions\mbfuncdisc.c
 grid\mbfuncdisc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 grid\mbfuncdisc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 grid\mbfuncdisc.o: ..\FreeModbus\port\port.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-grid\mbfuncdisc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-grid\mbfuncdisc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-grid\mbfuncdisc.o: ../Inc/FreeRTOSConfig.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
-grid\mbfuncdisc.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 grid\mbfuncdisc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
 grid\mbfuncdisc.o: ../Inc/stm32f0xx_hal_conf.h
 grid\mbfuncdisc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h
@@ -20,6 +9,7 @@ grid\mbfuncdisc.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h
 grid\mbfuncdisc.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
 grid\mbfuncdisc.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h
 grid\mbfuncdisc.o: ../Drivers/CMSIS/Include/core_cm0.h
+grid\mbfuncdisc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 grid\mbfuncdisc.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 grid\mbfuncdisc.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 grid\mbfuncdisc.o: ../Drivers/CMSIS/Include/core_cmFunc.h

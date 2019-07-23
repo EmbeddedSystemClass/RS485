@@ -2,17 +2,6 @@ grid\mbtcp.o: ..\FreeModbus\modbus\tcp\mbtcp.c
 grid\mbtcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 grid\mbtcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 grid\mbtcp.o: ..\FreeModbus\port\port.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-grid\mbtcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
-grid\mbtcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-grid\mbtcp.o: ../Inc/FreeRTOSConfig.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM0/portmacro.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
-grid\mbtcp.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 grid\mbtcp.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
 grid\mbtcp.o: ../Inc/stm32f0xx_hal_conf.h
 grid\mbtcp.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h
@@ -20,6 +9,7 @@ grid\mbtcp.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h
 grid\mbtcp.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
 grid\mbtcp.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h
 grid\mbtcp.o: ../Drivers/CMSIS/Include/core_cm0.h
+grid\mbtcp.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 grid\mbtcp.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 grid\mbtcp.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 grid\mbtcp.o: ../Drivers/CMSIS/Include/core_cmFunc.h

@@ -55,6 +55,9 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
 void TIMERExpiredISR(void);
+uint8_t RS485_Get_Address();
+void cmd_control();
+void cmd_FeedBack();
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
@@ -78,6 +81,10 @@ void TIMERExpiredISR(void);
 #define LOCK_5_GPIO_Port GPIOB
 #define FB_5_Pin GPIO_PIN_13
 #define FB_5_GPIO_Port GPIOB
+#define Y4_Pin GPIO_PIN_9
+#define Y4_GPIO_Port GPIOA
+#define Y3_Pin GPIO_PIN_10
+#define Y3_GPIO_Port GPIOA
 #define Y2_Pin GPIO_PIN_11
 #define Y2_GPIO_Port GPIOA
 #define Y1_Pin GPIO_PIN_12

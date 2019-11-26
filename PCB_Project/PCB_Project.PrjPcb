@@ -123,10 +123,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ULDKLPSU
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for PCB_Project\Design Rule Check - GRID.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0

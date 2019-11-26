@@ -27,7 +27,7 @@
 #define REG_INPUT_START 1
 #define REG_INPUT_NREGS 2
 #define REG_HOLDING_START 1
-#define REG_HOLDING_NREGS 2
+#define REG_HOLDING_NREGS 3
 
 /* ----------------------- Static variables ---------------------------------*/
 static USHORT   usRegInputStart = REG_INPUT_START;
@@ -96,7 +96,7 @@ void cmd_FeedBack()
 								| (( HAL_GPIO_ReadPin(FB_4_GPIO_Port, FB_4_Pin)) << 3 ) \
 								| (( HAL_GPIO_ReadPin(FB_5_GPIO_Port, FB_5_Pin)) << 4 );
 	
-	usRegInputBuf[0] = state;
+	usRegHoldingBuf[1] = state;
 }
 
 eMBErrorCode eMBRegInputCB( UCHAR * pucRegBuffer, USHORT usAddress, USHORT usNRegs )
